@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+
+        .mainlogo {
+            position: absolute;
+            top: 115px;
+            left: 60px;
+        }
+
+        .sawping {
+            position: absolute;
+            top: 10px;
+            left: 40px;
+        }
+
+        .searchproduct {
+            position: absolute;
+            top: 3px;
+            left: 810px;
+            width: 120px;
+            height: 25px;
+        }
+
+        .inr {
+            position: absolute;
+            top: 10px;
+            right: 50px;
+        }
+
+        .cart {
+            position: absolute;
+            top: 10px;
+            right: 130px;
+        }
+
+        .signin {
+            position: absolute;
+            top: 10px;
+            right: 220px;
+        }
+
+        .wishlist {
+            position: absolute;
+            top: 10px;
+            right: 300px;
+        }
+
+        .new {
+            position: absolute;
+            top: 70px;
+            left: 70px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+
+        }
+
+        .under {
+            position: absolute;
+            top: 70px;
+            left: 200px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .trackpants {
+            position: absolute;
+            top: 70px;
+            right: 930px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .tshirt {
+            position: absolute;
+            top: 70px;
+            right: 800px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .sweaters {
+            position: absolute;
+            top: 70px;
+            right: 600px;
+            width: 170px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .tracksuit {
+            position: absolute;
+            top: 70px;
+            right: 470px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .shorts {
+            position: absolute;
+            top: 70px;
+            right: 340px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .multipacks {
+            position: absolute;
+            top: 70px;
+            right: 215px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .tops {
+            position: absolute;
+            top: 70px;
+            right: 50px;
+            width: 140px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+
+        }
+
+        .men {
+            position: absolute;
+            top: 125px;
+            left: 550px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .blog {
+            position: absolute;
+            top: 125px;
+            left: 680px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .image1a {
+            position: absolute;
+            top: 230px;
+            left: 50px;
+            height: 550px;
+        }
+
+        .image3a1 {
+            position: absolute;
+            left: 120px;
+            top: 800px;
+            height: 130px;
+        }
+
+        .image3a2 {
+            position: absolute;
+            left: 220px;
+            top: 800px;
+            height: 130px;
+        }
+
+        .image3a3 {
+            position: absolute;
+            left: 320px;
+            top: 800px;
+            height: 130px;
+        }
+
+        .image3a4 {
+            position: absolute;
+            left: 420px;
+            top: 800px;
+            height: 130px;
+        }
+
+        .image3a5 {
+            position: absolute;
+            left: 20px;
+            top: 800px;
+            height: 130px;
+        }
+
+        .elise {
+            position: absolute;
+            top: 210px;
+            left: 550px;
+        }
+
+        .rupee {
+            position: absolute;
+            top: 245px;
+            left: 550px;
+        }
+
+        .hr {
+            position: relative;
+            top: 290px;
+            width: 40%;
+            left: 145px;
+        }
+
+        .color {
+            position: absolute;
+            top: 300px;
+            left: 550px;
+
+        }
+
+        .peach {
+            position: absolute;
+            top: 340px;
+            left: 550px;
+            height: 30px;
+        }
+
+        .size {
+            position: absolute;
+            top: 370px;
+            left: 550px;
+        }
+
+        .button {
+            background-color: white;
+            border-width: 1px;
+        }
+
+        .addtocart {
+            position: absolute;
+            top: 460px;
+            left: 550px;
+            height: 30px;
+            width: 150px;
+            background-color: black;
+            color: white;
+        }
+
+        .likeemoji {
+            position: absolute;
+            top: 459px;
+            left: 710px;
+            height: 35px;
+        }
+
+        .hr2 {
+            position: relative;
+            top: 490px;
+            width: 40%;
+            left: 145px;
+
+        }
+
+        .para {
+            position: absolute;
+            top: 510px;
+            left: 550px;
+            font-family: Lato, sans-serif;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+
+        /* .list{
+        list-style-type: none;
+            color: black;
+       }
+       li a {
+            color: black;
+            padding: 10px;
+       }
+       li {
+        float: left;
+       } */
+        .face {
+            position: absolute;
+            top: 300px;
+            left: 0px;
+            height: 30px;
+        }
+
+        .insta {
+            position: absolute;
+            top: 300px;
+            left: 40px;
+            height: 30px;
+        }
+
+        .twit {
+            position: absolute;
+            top: 300px;
+            left: 80px;
+            height: 30px;
+        }
+
+        .pint {
+            position: absolute;
+            top: 300px;
+            left: 120px;
+            height: 30px;
+        }
+
+        .google {
+            position: absolute;
+            top: 300px;
+            left: 160px;
+            height: 30px;
+        }
+
+        .email {
+            position: absolute;
+            top: 300px;
+            left: 200px;
+            height: 30px;
+        }
+
+        .newarrival {
+            position: absolute;
+            top: 350px;
+        }
+
+        .previous {
+            position: absolute;
+            top: 350px;
+            left: 200px;
+        }
+
+        .next {
+            position: absolute;
+            top: 350px;
+            left: 350px;
+        }
+
+        .leftborder {
+            border-left: 1px solid grey;
+            height: 650px;
+            position: absolute;
+            right: 230px;
+            top: 240px;
+        }
+
+        .plus {
+            position: absolute;
+            top: 690px;
+            left: 1060px;
+        }
+
+        .plus2 {
+            position: absolute;
+            top: 720px;
+            left: 1060px;
+        }
+
+        .plus3 {
+            position: absolute;
+            top: 750px;
+            left: 1060px;
+        }
+
+        .rightimages {
+            position: absolute;
+            right: 60px;
+            top: 230px;
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .image13 {
+            position: absolute;
+            top: 320px;
+            right: 60px;
+            height: 170px;
+        }
+
+        .image2 {
+            position: absolute;
+            top: 520px;
+            right: 60px;
+            height: 170px;
+        }
+
+        .image5 {
+            position: absolute;
+            top: 720px;
+            right: 60px;
+            height: 170px;
+        }
+
+        .hrmid {
+            position: absolute;
+            top: 940px;
+            width: 90%;
+            left: 50px;
+        }
+
+        .viewed {
+            position: absolute;
+            top: 950px;
+            left: 70px;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+
+        .a2image {
+            position: absolute;
+            top: 1000px;
+            left: 70px;
+            height: 260px;
+        }
+
+        .a4image {
+            position: absolute;
+            top: 1000px;
+            left: 280px;
+            height: 260px;
+        }
+
+        .a6image {
+            position: absolute;
+            top: 1000px;
+            left: 510px;
+            height: 260px;
+        }
+
+        .a12image {
+            position: absolute;
+            top: 1000px;
+            left: 740px;
+            height: 260px;
+        }
+
+        .a14image {
+            position: absolute;
+            top: 1000px;
+            left: 970px;
+            height: 260px;
+        }
+
+        .powered {
+            position: absolute;
+            top: 1280px;
+            left: 70px;
+        }
+
+        .hrbelow {
+            position: absolute;
+            top: 1310px;
+            left: 50px;
+            width: 90%;
+        }
+
+        .hrbelow2 {
+            position: absolute;
+            top: 1320px;
+
+            width: 100%;
+        }
+
+        .starsdown {
+            position: absolute;
+            top: 1350px;
+            left: 10px;
+        }
+
+        .para2 {
+            position: absolute;
+            top: 1430px;
+            left: 10px;
+            font-family: sans-serif;
+        }
+
+        .buttons {
+            position: absolute;
+            top: 1350px;
+            right: 100px;
+            background: purple;
+            border: 1px purple;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .buttons2 {
+            position: absolute;
+            top: 1400px;
+            right: 100px;
+            background: purple;
+            border: 1px purple;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .hrdown{
+            position: relative;
+            top: 1450px;
+        }
+        .starsdown2{
+            position: relative;
+            top: 1500px;
+            text-align: center;
+           
+        }
+        .starsdown2 button{
+            background: purple;
+            border: 1px purple;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    <div class="main">
+
+        <div>
+            <input type="text" name="searchproduct" placeholder="Search" class="searchproduct">
+        </div>
+        <div class="inr">
+            <select name="" id="">
+                <option value="">₹INR</option>
+                <option value="">$USD</option>
+                <option value="">£GBP</option>
+                <option value="">€EUR</option>
+                <option value="">د.إAED</option>
+            </select>
+        </div>
+        <a href="index.html"> <img src="image/png.png" alt="logo" class="mainlogo"></a>
+        <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart (0)
+        </div>
+        <div class="wishlist">
+            <i class="fa fa-heart" aria-hidden="true"></i> Wishlist (0)
+        </div>
+        <div class="signin">
+            <i class="fa fa-user" aria-hidden="true"></i> Sign in
+        </div>
+        <div class="sawping">
+            Use code 'SAWPING22' to get 30% OFF SITE WIDE
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="NEW IN" class="new">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="UNDER 999" class="under">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="TSHIRT" class="tshirt">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="TRACKPANTS" class="trackpants">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="SWEATERS & HOODIES" class="sweaters">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="TRACKSUIT" class="tracksuit">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="SHORTS" class="shorts">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="MULTIPACKS" class="multipacks">
+        </div>
+        <div>
+            <input type="submit" value="TOPS & DRESSES" class="tops">
+        </div>
+        <div>
+            <input type="submit" value="MEN" class="men">
+        </div>
+        <div>
+            <input type="submit" class="blog" value="BLOG">
+        </div>
+        <img src="image/3.jpg" alt="image" class="image1a">
+        <img src="image/3.jpg" alt="image" class="image3a5">
+        <img src="image/3.1.jpg" alt="image" class="image3a1">
+        <img src="image/3.3.jpg" alt="image" class="image3a2">
+        <img src="image/3.2.jpg" alt="image" class="image3a3">
+        <img src="image/3.4.jpg" alt="image" class="image3a4">
+        <div class="elise">
+            <h2>Elise Solid Bralette</h2>
+        </div>
+        <div class="rupee">
+            <pre><font style="font-size: 18px;">Rs. 1,444 <Del><font style="color: grey;">Rs.1,699</font></Del></font><font style="color: orange; font-size:25px;"> 15% OFF</font></pre>
+        </div>
+        <hr class="hr">
+        <div class="color">
+            <p>Color</p>
+        </div>
+        <img src="image/peach.jpg" alt="peach" class="peach">
+        <div class="size">
+            <p>Size</p>
+            <button class="button">XS</button>
+            <button class="button">S</button>
+            <button class="button">M</button>
+            <button class="button">L</button>
+            <button class="button">XL</button>
+        </div>
+        <input type="submit" value="ADD TO CART" class="addtocart" title="Add to Cart">
+        <img src="image/heartcircle.png" alt="image" class="likeemoji" title="like">
+        <hr class="hr2">
+        <div class="para">
+            <p>
+                Get your freak on! These will work well with your pants, denims, skirts and <br> shorts. You can take it
+                for a ride under a blazer or just by it's hot self. We'll <br> suggest to layer it up with thin god
+                chains, to bring out that wild siders.</p>
+
+            <b>Features</b>
+            <ul>
+                <li>- 100% Polyester</li>
+                <li>- Casual fit</li>
+                <li>- Hand wash cold, Do not bleach, Iron low</li>
+                <li>- Actual color may vary from the image</li>
+            </ul>
+            <hr width="540px">
+            <b>Size Guide</b>
+            <hr width="540px">
+            <b>Contact Us</b>
+            <hr width="540px">
+            <b>Delivey Time</b>
+            <hr width="540px">
+            <!-- <ul class="list">
+            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+           </ul>  -->
+            <img src="image/facebook.png" alt="image" class="face">
+            <img src="image/instagram.png" alt="image" class="insta">
+            <img src="image/twitter.png" alt="image" class="twit">
+            <img src="image/pinterest.png" alt="image" class="pint">
+            <img src="image/google.png" alt="image" class="google">
+            <img src="image/email.png" alt="image" class="email">
+            <p class="newarrival">Back to NEW ARRIVALS</p>
+            <p class="previous">Previous Product</p>
+            <p class="next">Next Product</p>
+        </div>
+        <div class="plus"><i class="fa fa-plus-square-o" aria-hidden="true"></i></div>
+        <div class="plus2"><i class="fa fa-plus-square-o" aria-hidden="true"></i></div>
+        <div class="plus3"><i class="fa fa-plus-square-o" aria-hidden="true"></i></div>
+        <div class="leftborder">
+        </div>
+        <div class="rightimages">
+            <p>More in this <br> Collection</p>
+
+        </div>
+        <img src="image/13.jpg" alt="image" class="image13">
+        <img src="image/2.jpg" alt="image" class="image2">
+        <img src="image/5.jpg" alt="image" class="image5">
+        <hr class="hrmid">
+        <p class="viewed">You Also Viewed</p>
+        <img src="image/2.jpg" alt="image" class="a2image">
+        <img src="image/4.jpg" alt="image" class="a4image">
+        <img src="image/6.jpg" alt="image" class="a6image">
+        <img src="image/12.jpg" alt="image" class="a12image">
+        <img src="image/14.jpg" alt="image" class="a14image">
+        <p class="powered">Powered by SAWPING</p>
+        <hr class="hrbelow">
+        <hr class="hrbelow2">
+        <div class="starsdown">
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <p><i>0 Question \ 0 Answers</i></p>
+        </div>
+        <pre class="para2">Reviews (0)         Question (0)</pre>
+        <div >
+            <button class="buttons">WRITE A REVIEW</button>
+            <button class="buttons2">ASK A QUESTION</button>
+        </div>
+        <hr class="hrdown">
+        <div class="starsdown2">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i><br>
+        <button>Be the First to Review</button>
+    </div>
+</body>
+
+</html>

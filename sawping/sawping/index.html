@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+
+        .mainlogo {
+            position: absolute;
+            top: 115px;
+            left: 60px;
+        }
+
+        .sawping {
+            position: absolute;
+            top: 10px;
+            left: 40px;
+        }
+
+        .searchproduct {
+            position: absolute;
+            top: 3px;
+            left: 810px;
+            width: 120px;
+            height: 25px;
+            
+        }
+
+        .inr {
+            position: absolute;
+            top: 10px;
+            right: 50px;
+        }
+
+        .cart {
+            position: absolute;
+            top: 10px;
+            right: 130px;
+        }
+
+        .signin {
+            position: absolute;
+            top: 10px;
+            right: 220px;
+        }
+
+        .wishlist {
+            position: absolute;
+            top: 10px;
+            right: 300px;
+        }
+
+        .new {
+            position: absolute;
+            top: 70px;
+            left: 70px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+
+        }
+
+        .under {
+            position: absolute;
+            top: 70px;
+            left: 200px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .trackpants {
+            position: absolute;
+            top: 70px;
+            right: 930px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .tshirt {
+            position: absolute;
+            top: 70px;
+            right: 800px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .sweaters {
+            position: absolute;
+            top: 70px;
+            right: 600px;
+            width: 170px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .tracksuit {
+            position: absolute;
+            top: 70px;
+            right: 470px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .shorts {
+            position: absolute;
+            top: 70px;
+            right: 340px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .multipacks {
+            position: absolute;
+            top: 70px;
+            right: 215px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .tops {
+            position: absolute;
+            top: 70px;
+            right: 50px;
+            width: 140px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+
+        }
+
+        .men {
+            position: absolute;
+            top: 125px;
+            left: 550px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .blog {
+            position: absolute;
+            top: 125px;
+            left: 680px;
+            width: 100px;
+            height: 30px;
+            background-color: #e1deda;
+            border: none;
+        }
+
+        .bg {
+            position: absolute;
+            top: 180px;
+        }
+
+        .hr {
+            position: absolute;
+            top: 800px;
+            width: 400px;
+            right: 100px;
+        }
+
+        .hr1 {
+            position: absolute;
+            top: 800px;
+            width: 400px;
+            left: 100px;
+
+        }
+
+        .featured {
+            position: absolute;
+            top: 775px;
+            left: 530px;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .image1 {
+            position: absolute;
+            left: 100px;
+            top: 850px;
+            height: 368px;
+        }
+
+        .image1eye {
+            position: absolute;
+            left: 100px;
+            top: 1220px;
+        }
+
+        .image1head {
+            position: absolute;
+            left: 100px;
+            top: 1235px;
+
+        }
+
+        .sizebutton {
+            position: absolute;
+            left: 100px;
+            top: 1350px;
+        }
+
+
+        .image2 {
+            position: absolute;
+            left: 400px;
+            top: 850px;
+            height: 368px;
+        }
+
+        .image2head {
+            position: absolute;
+            left: 400px;
+            top: 1235px;
+        }
+
+        .image2eye {
+            position: absolute;
+            left: 400px;
+            top: 1220px;
+        }
+
+        .sizebutton2 {
+            position: absolute;
+            left: 400px;
+            top: 1350px;
+        }
+
+        .image3 {
+            position: absolute;
+            left: 700px;
+            top: 850px;
+            height: 368px;
+        }
+
+        .image3head {
+            position: absolute;
+            left: 700px;
+            top: 1235px;
+
+        }
+
+        .image3eye {
+            position: absolute;
+            left: 700px;
+            top: 1220px;
+        }
+
+        .sizebutton3 {
+            position: absolute;
+            left: 700px;
+            top: 1350px;
+        }
+
+        .image4 {
+            position: absolute;
+            right: 100px;
+            top: 850px;
+            height: 368px;
+        }
+
+        .image4head {
+            position: absolute;
+            right: 245px;
+            top: 1235px;
+
+        }
+
+        .image4eye {
+            position: absolute;
+            right: 274px;
+            top: 1220px;
+        }
+
+        .sizebutton4 {
+            position: absolute;
+            right: 210px;
+            top: 1350px;
+        }
+
+        .image5 {
+            position: absolute;
+            left: 100px;
+            top: 1410px;
+            height: 368px;
+        }
+
+        .image5eye {
+            position: absolute;
+            left: 100px;
+            top: 1780px;
+        }
+
+        .image5head {
+            position: absolute;
+            left: 100px;
+            top: 1795px;
+
+        }
+
+        .sizebutton5 {
+            position: absolute;
+            left: 100px;
+            top: 1910px;
+        }
+
+        .image6 {
+            position: absolute;
+            left: 400px;
+            top: 1410px;
+            height: 368px;
+        }
+
+        .image6eye {
+            position: absolute;
+            left: 400px;
+            top: 1780px;
+        }
+
+        .image6head {
+            position: absolute;
+            left: 400px;
+            top: 1795px;
+
+        }
+
+        .sizebutton6 {
+            position: absolute;
+            left: 400px;
+            top: 1910px;
+        }
+
+        .image7 {
+            position: absolute;
+            left: 700px;
+            top: 1410px;
+            height: 368px;
+        }
+
+        .image7eye {
+            position: absolute;
+            left: 700px;
+            top: 1780px;
+        }
+
+        .image7head {
+            position: absolute;
+            left: 700px;
+            top: 1795px;
+
+        }
+
+        .sizebutton7 {
+            position: absolute;
+            left: 700px;
+            top: 1910px;
+        }
+
+        .image8 {
+            position: absolute;
+            right: 100px;
+            top: 1410px;
+            height: 368px;
+        }
+
+        .image8head {
+            position: absolute;
+            right: 245px;
+            top: 1795px;
+
+        }
+
+        .image8eye {
+            position: absolute;
+            right: 274px;
+            top: 1780px;
+        }
+
+        .sizebutton8 {
+            position: absolute;
+            right: 210px;
+            top: 1910px;
+        }
+
+        .button {
+            background-color: white;
+            border-width: 1px;
+        }
+
+        .hr3 {
+            position: absolute;
+            top: 1960px;
+            width: 460px;
+            right: 100px;
+        }
+
+        .hr4 {
+            position: absolute;
+            top: 1960px;
+            width: 460px;
+            left: 100px;
+        }
+
+        .onthegram {
+            position: absolute;
+            top: 1935px;
+            left: 580px;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .image9 {
+            position: absolute;
+            top: 2000px;
+            left: 150px;
+            height: 500px;
+        }
+
+        .image10 {
+            position: absolute;
+            top: 2000px;
+            left: 500px;
+            height: 500px;
+        }
+
+        .image11 {
+            position: absolute;
+            top: 2000px;
+            right: 150px;
+            height: 500px;
+        }
+
+        .hr5 {
+            position: absolute;
+            top: 2490px;
+            width: 1150px;
+            left: 100px;
+        }
+
+        .image12 {
+            position: absolute;
+            top: 2530px;
+            left: 100px;
+            height: 500px;
+        }
+
+        .image13 {
+            position: absolute;
+            top: 2530px;
+            left: 493px;
+            height: 500px;
+        }
+
+        .image14 {
+            position: absolute;
+            top: 2530px;
+            right: 100px;
+            height: 500px;
+        }
+
+        .hr6 {
+            position: absolute;
+            top: 3050px;
+            width: 1150px;
+            left: 100px;
+        }
+
+        .table {
+            position: absolute;
+            top: 3080px;
+            left: 0px;
+            font-size: 15px;
+            text-align: left;
+            padding-left: 100px;
+
+        }
+        .tr{
+            padding-left:130px;
+        }
+        .tr2{
+            padding-left: 100px;
+        }
+        .tr3{
+            padding-left: 100px;
+        }
+        .textbox
+        {
+            height: 30px;
+        }
+        .join{
+            height: 36px;
+            width: 80px;
+            border-radius: 0px;
+            border: 0px;
+            background-color: black;
+            color: white;
+        }
+        .list{
+            position: absolute;
+            left: 805px;
+            top: 3160px;
+            list-style-type: none;
+            color: black;
+        
+        }
+        li {
+            float: left;
+           
+            
+        }
+        li a {
+            color: black;
+            padding: 16px;
+            
+        }
+        .payment{
+            position: absolute;
+            top: 3210px;
+            left: 450px;
+            width: 400px;
+        }
+        .copyright
+        {
+            position: absolute;
+            top: 3250px;
+            left: 550px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div>
+            <input type="text" name="searchproduct" placeholder="Search" class="searchproduct">
+        </div>
+        <div class="inr">
+            <select name="" id="">
+                <option value="">₹INR</option>
+                <option value="">$USD</option>
+                <option value="">£GBP</option>
+                <option value="">€EUR</option>
+                <option value="">د.إAED</option>
+            </select>
+        </div>
+        <img src="image/png.png" alt="logo" class="mainlogo">
+        <div class="cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart (0)
+        </div>
+        <div class="wishlist">
+            <i class="fa fa-heart" aria-hidden="true"></i> Wishlist (0)
+        </div>
+        <div class="signin">
+            <i class="fa fa-user" aria-hidden="true"></i> Sign in
+        </div>
+        <div class="sawping">
+            Use code 'SAWPING22' to get 30% OFF SITE WIDE
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="NEW IN" class="new">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="UNDER 999" class="under">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="TSHIRT" class="tshirt">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="TRACKPANTS" class="trackpants">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="SWEATERS & HOODIES" class="sweaters">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="TRACKSUIT" class="tracksuit">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="SHORTS" class="shorts">
+        </div>
+        <div>
+            <input type="submit" name="" id="" value="MULTIPACKS" class="multipacks">
+        </div>
+        <div>
+            <input type="submit" value="TOPS & DRESSES" class="tops">
+        </div>
+        <div>
+            <input type="submit" value="MEN" class="men">
+        </div>
+        <div>
+            <input type="submit" class="blog" value="BLOG">
+        </div>
+        <img src="image/bg.jpg" alt="bg image" class="bg">
+        <hr class="hr">
+        <div class="featured">
+            <h2>Featured Products</h2>
+        </div>
+        <hr class="hr1">
+        <a href="page1.html"> <img src="image/3.jpg" alt="image" class="image1"></a>
+        <div class="image1eye">
+            <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa  fa-heart"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+            </button>
+        </div>
+        <div class="image1head">
+
+            <p>Elite Solid Bralette</p>
+            <p>
+                <font style="color: grey;"><del> Rs.1,399</del></font> Rs.699
+            </p>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <div class="sizebutton">
+            <button class="button">XS</button>
+            <button class="button">S</button>
+            <button class="button">M</button>
+            <button class="button">L</button>
+            <button class="button">XL</button>
+        </div>
+        <img src="image/1.jpg" alt="image" class="image2">
+        <div class="image2head">
+
+            <p>Zoe Strapless Bralette</p>
+            <p>
+                <font style="color: grey;"><del> Rs.16,99</del></font> Rs.1,444
+            </p>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+
+        </div>
+        <div class="image2eye">
+            <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa  fa-heart"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+            </button>
+        </div>
+        <div class="sizebutton2">
+            <button class="button">XS</button>
+            <button class="button">S</button>
+            <button class="button">M</button>
+            <button class="button">L</button>
+            <button class="button">XL</button>
+        </div>
+
+        <img src="image/2.jpg" alt="image" class="image3">
+        <div class="image3head">
+
+            <p>Elite Solid Bralette</p>
+            <p>
+                <font style="color: grey;"><del> Rs.1,499</del></font> Rs.1,274
+            </p>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+        </div>
+        <div class="image3eye">
+            <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa  fa-heart"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+            </button>
+        </div>
+        <div class="sizebutton3">
+            <button class="button">XS</button>
+            <button class="button">S</button>
+            <button class="button">M</button>
+            <button class="button">L</button>
+            <button class="button">XL</button>
+        </div>
+        <img src="image/4.jpg" alt="image" class="image4">
+        <div class="image4head">
+
+            <p>Elite Solid Bralette</p>
+            <p>
+                <font style="color: grey;"><del> Rs.1,199</del></font> Rs.999
+            </p>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <div class="image4eye">
+            <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa  fa-heart"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+            </button>
+        </div>
+        <div class="sizebutton4">
+            <button class="button">XS</button>
+            <button class="button">S</button>
+            <button class="button">M</button>
+            <button class="button">L</button>
+            <button class="button">XL</button>
+        </div>
+        <img src="image/5.jpg" alt="image" class="image5">
+        <div class="image5eye">
+            <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa  fa-heart"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+            </button>
+        </div>
+        <div class="image5head">
+
+            <p>Elite Solid Bralette</p>
+            <p>
+                <font style="color: grey;"><del> Rs.1399</del></font> Rs.699
+            </p>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <div class="sizebutton5">
+            <button class="button">XS</button>
+            <button class="button">S</button>
+            <button class="button">M</button>
+            <button class="button">L</button>
+            <button class="button">XL</button>
+        </div>
+        <img src="image/6.jpg" alt="image" class="image6">
+        <div class="image6eye">
+            <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa  fa-heart"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+            </button>
+        </div>
+        <div class="image6head">
+
+            <p>Elite Solid Bralette</p>
+            <p>
+                <font style="color: grey;"><del> Rs.1399</del></font> Rs.699
+            </p>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <div class="sizebutton6">
+            <button class="button" class="button">XS</button>
+            <button class="button" class="button">S</button>
+            <button class="button" class="button">M</button>
+            <button class="button" class="button">L</button>
+            <button class="button" class="button">XL</button>
+        </div>
+        <img src="image/7.jpg" alt="image" class="image7">
+        <div class="image7eye">
+            <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa  fa-heart"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+            </button>
+        </div>
+        <div class="image7head">
+
+            <p>Elite Solid Bralette</p>
+            <p>
+                <font style="color: grey;"><del> Rs.1399</del></font> Rs.699
+            </p>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <div class="sizebutton7">
+            <button class="button">XS</button>
+            <button class="button">S</button>
+            <button class="button">M</button>
+            <button class="button">L</button>
+            <button class="button">XL</button>
+        </div>
+        <img src="image/8.jpg" alt="image" class="image8">
+        <div class="image8eye">
+            <button type="button" class="btn btn-secondary" title="Quick Shop"><i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i class="fa  fa-heart"></i>
+            </button>
+
+            <button type="button" class="btn btn-secondary" title="Add to Cart"><i class="fa fa-shopping-cart"></i>
+            </button>
+        </div>
+        <div class="image8head">
+
+            <p>Elite Solid Bralette</p>
+            <p>
+                <font style="color: grey;"><del> Rs.1399</del></font> Rs.699
+            </p>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+        </div>
+        <div class="sizebutton8">
+            <button class="button">XS</button>
+            <button class="button">S</button>
+            <button class="button">M</button>
+            <button class="button">L</button>
+            <button class="button">XL</button>
+        </div>
+        <hr class="hr3">
+        <div class="onthegram">
+            <h2>ON THE GRAM</h2>
+        </div>
+        <hr class="hr4">
+        <img src="image/9.jpg" alt="image" class="image9">
+        <img src="image/10.jpg" alt="image" class="image10">
+        <img src="image/11.jpg" alt="image" class="image11">
+        <hr class="hr5">
+        <img src="image/12.jpg" alt="image" class="image12">
+        <img src="image/13.jpg" alt="image" class="image13">
+        <img src="image/14.jpg" alt="image" class="image14">
+        <hr class="hr6">
+        <table class="table"  style="height: 120px;">
+            <tr >
+                <th>QUICK LINK</th>
+                <th class="tr">CUSTOMER CARE</th>
+                <th class="tr2">COMPANY</th>
+                <th class="tr3">CONNECT</th>
+            </tr>
+            <tr>
+                <td>FAQ</td>
+                <td class="tr">Contact Us</td>
+                <td class="tr2">About us</td>
+                <td class="tr3" rowspan="4"> <input type="text" name="" id="" placeholder="Enter Your Email Address" class="textbox"><button class="join">Join</button></td>
+            </tr>
+            <tr>
+                <td>Size Guide</td>
+                <td class="tr">Returns & Canecellations</td>
+                <td class="tr2">Careers</td>
+                <td class="tr3"></td>
+            </tr>
+            <tr>
+                <td>My Account</td>
+                <td class="tr">Shipping & Delivery Policy</td>
+                <td class="tr2">Wholesale & Distribution</td>
+                <td class="tr3"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="tr">Track Order</td>
+                <td class="tr2">Private Policy</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    
+                </td>
+                <td class="tr2">Terms & Conditions</td>
+                <td class="tr3"></td>
+            </tr>
+            <ul class="list">
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/login/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            </ul>
+            
+    </div>
+    <img src="image/payment.jpg" alt="payment" class="payment">
+    </div>
+    <p class="copyright">Copyright © 2022 SAWPING</p>
+</body>
+
+</html>
